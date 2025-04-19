@@ -1,12 +1,13 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import Footer from "./component/Footer"
-import Header from "./component/Header"
-import Home from "./pages/Home"
+import Footer from "./component/Footer";
+import Header from "./component/Header";
+import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import { useEffect, useState } from "react";
 import Loader from "./component/Loader";
+import Notice from "./component/Notice";
 
 function App() {
   const location = useLocation();
@@ -24,10 +25,14 @@ function App() {
 
   return (
     <>
-      {loading && <Loader />} 
-
+      {loading && <Loader />}
       <Header />
-      <main style={{ opacity: loading ? 0.5 : 1, pointerEvents: loading ? 'none' : 'auto' }}>
+      <main
+        style={{
+          opacity: loading ? 0.5 : 1,
+          pointerEvents: loading ? "none" : "auto",
+        }}
+      >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact-us" element={<Contact />} />
@@ -36,6 +41,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <Notice />
     </>
   );
 }

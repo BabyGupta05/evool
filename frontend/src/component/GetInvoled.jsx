@@ -24,7 +24,7 @@ export default function GetInvolved() {
       {/* Cards Section */}
       <div className="mt-12 flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-7xl mx-auto px-4 py-24">
         {/* Card 1 */}
-        <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[250px]">
+        <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[350px] md:h-[250px]">
           <h4 className="text-xl font-semibold mb-4">How You Can Help</h4>
           <p className="text-gray-600">
             Bring Real Change Through Technology If you have the ability to
@@ -35,7 +35,7 @@ export default function GetInvolved() {
         </article>
 
         {/* Card 2 */}
-        <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[250px]">
+        <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[350px] md:h-[250px]">
           <h4 className="text-xl font-semibold mb-4">
             Share What You're Good At
           </h4>
@@ -47,7 +47,7 @@ export default function GetInvolved() {
         </article>
 
         {/* Card 3 */}
-        <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[250px]">
+        <article className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm text-center flex flex-col justify-between h-[350px] md:h-[250px]">
           <h4 className="text-xl font-semibold mb-4">Help Us Reach Further</h4>
           <p className="text-gray-600">
             With your contributions, we can create and sustain the tools that

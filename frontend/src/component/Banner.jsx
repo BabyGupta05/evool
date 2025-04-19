@@ -3,7 +3,7 @@ import banner from "./../assets/banner.png";
 
 export default function Banner() {
   return (
-    <section className="w-full min-h-screen bg-white flex items-center justify-center py-12 my-10">
+    <section className="w-full min-h-screen bg-white flex items-center justify-center py-12 my-16 md:my-8 lg:my-2">
       <div className="w-full max-w-[80%] mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10 lg:gap-16">
         {/* Left Column */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
